@@ -3,114 +3,224 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <link rel="icon" type="image/png" href="./assets/favicon.png">
-  <link rel="apple-touch-icon" href="./assets/favicon.png">
+  <link rel="icon" href="./assets/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-touch-icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-  <title>20년차 경영컨설턴트</title>
-  <meta name="description" content="AI 활용 경영컨설턴트 입니다">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet">
+  <title>박미애 이사장 | 티앤비 협동조합</title>
+  <meta name="description" content="함께 성장하고 더 나은 비즈니스를 만드는 티앤비 협동조합 박미애 이사장의 디지털 명함입니다.">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://park336700-ops.github.io/">
-  <meta property="og:title" content="20년차 경영컨설턴트">
-  <meta property="og:description" content="AI 활용 경영컨설턴트 입니다">
+  <meta property="og:title" content="박미애 이사장 | 티앤비 협동조합">
+  <meta property="og:description" content="Together & Better, 함께 성장하고 더 나은 비즈니스를 만들어갑니다.">
   <meta property="og:type" content="profile">
   <meta property="og:url" content="https://park336700-ops.github.io/">
   <meta property="og:image" content="https://park336700-ops.github.io/assets/park-mi-ae-profile.png">
-  <meta property="og:image:alt" content="티앤비협동조합 이사장이자 20년차 경영컨설턴트인 박미애 프로필 사진">
+  <meta property="og:image:alt" content="티앤비 협동조합 이사장이자 경영지도사인 박미애 프로필 사진">
   <!-- 사이트 소유확인 meta 태그 시작: 네이버·Google 인증값을 아래에 유지하세요. -->
-  <meta name="naver-site-verification" content="482c3bebd728c4444ed0ac367a89dda87c87e959" />
-  <meta name="google-site-verification" content="qmHhQr65QrhyQsrdJ58aldi3v7XFtKNKYce_yRVaWis" />
+  <meta name="naver-site-verification" content="482c3bebd728c4444ed0ac367a89dda87c87e959">
+  <meta name="google-site-verification" content="qmHhQr65QrhyQsrdJ58aldi3v7XFtKNKYce_yRVaWis">
   <!-- 사이트 소유확인 meta 태그 끝 -->
   <link rel="stylesheet" href="./style.css">
   <script src="./script.js" defer></script>
 </head>
 <body>
   <header class="site-header">
-    <a class="brand" href="#hero" aria-label="박미애 프로필 홈">박미애</a>
-    <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav">메뉴</button>
-    <nav id="site-nav" class="site-nav" aria-label="주요 메뉴">
-      <a href="#hero">홈</a><a href="#expertise">핵심역량</a><a href="#contact">연락처</a>
-    </nav>
+    <div class="header-inner">
+      <a class="brand" href="#hero" aria-label="티앤비 협동조합 홈">
+        <img src="./assets/tnb-logo-lockup.png" alt="T&B 티앤비 협동조합">
+        <span>Together &amp; Better</span>
+      </a>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="주요 메뉴 열기">
+        <span class="material-symbols-outlined menu-icon" aria-hidden="true">menu</span>
+        <span class="menu-label">메뉴</span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="주요 메뉴">
+        <a href="#hero">홈</a>
+        <a href="#vision">비전</a>
+        <a href="#services">주요 사업</a>
+        <a href="#portfolio">포트폴리오</a>
+        <a href="#contact">연락처</a>
+      </nav>
+    </div>
   </header>
 
   <main>
     <section id="hero" class="hero">
       <div class="hero-inner">
         <div class="portrait-wrap">
-          <img class="portrait" src="./assets/park-mi-ae-profile.png" alt="티앤비협동조합 이사장이자 경영지도사인 박미애 프로필 사진">
+          <img class="portrait" src="./assets/park-mi-ae-profile.png" alt="티앤비 협동조합 이사장이자 경영지도사인 박미애 프로필 사진">
           <span class="portrait-fallback" aria-hidden="true">박미애</span>
         </div>
-        <p class="eyebrow">Digital Profile · Park Mi Ae</p>
-        <h1>박 미 애</h1>
-        <p class="role">티앤비협동조합 이사장 <span aria-hidden="true">·</span> 경영지도사</p>
-        <p class="fields">AI 강의 / 경영컨설팅 / 공유오피스 / 에어컨설치</p>
-        <div class="hero-summary">
-          <p>현장의 경험과 AI를 연결해 사업이 실제로 움직이도록 돕습니다.</p>
-          <p>공유오피스 운영부터 에어컨 설치·세척, 경영컨설팅까지 함께합니다.</p>
-        </div>
-        <div class="hero-actions" aria-label="빠른 연락">
-          <a class="button button-primary" href="tel:01046333367">전화 걸기</a>
-          <a class="button button-outline" href="mailto:park3367@hanmail.net?subject=홈페이지%20문의" aria-label="박미애에게 이메일 보내기">이메일</a>
-          <a class="button button-outline" href="./contact.vcf" download>연락처 저장</a>
+        <div class="hero-content">
+          <h1>박 미 애</h1>
+          <p class="role">이사장 <span aria-hidden="true">·</span> 경영지도사</p>
+          <p class="hero-kicker">Together &amp; Better</p>
         </div>
       </div>
     </section>
 
-    <section id="expertise" class="section expertise-section">
+    <section id="vision" class="vision-section" aria-labelledby="vision-title">
+      <div class="vision-inner">
+        <span class="material-symbols-outlined vision-icon" aria-hidden="true">handshake</span>
+        <div>
+          <p>T&amp;B Vision</p>
+          <h2 id="vision-title">티앤비 협동조합은 함께 성장하고,<br><strong>더 나은 비즈니스</strong>를 만들어갑니다.</h2>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section services-section">
+      <div class="section-heading centered-heading">
+        <p class="section-label">Our Business</p>
+        <h2>함께 만드는 비즈니스</h2>
+      </div>
+      <div class="service-grid" aria-label="티앤비 협동조합 주요 사업">
+        <a class="service-item" href="tel:01046333367" aria-label="시스템에어컨 설치 전화 문의">
+          <span class="material-symbols-outlined" aria-hidden="true">ac_unit</span>
+          <strong>시스템에어컨<br>설치</strong>
+        </a>
+        <a class="service-item" href="tel:01046333367" aria-label="공유오피스 삼성역 전화 문의">
+          <span class="material-symbols-outlined" aria-hidden="true">apartment</span>
+          <strong>공유오피스<br><small>(삼성역)</small></strong>
+        </a>
+        <a class="service-item" href="mailto:park3367@hanmail.net?subject=%5B%EA%B2%BD%EC%98%81%EC%BB%A8%EC%84%A4%ED%8C%85%5D%20%EB%AC%B8%EC%9D%98" aria-label="경영컨설팅 문의 이메일 보내기">
+          <span class="material-symbols-outlined" aria-hidden="true">groups</span>
+          <strong>경영컨설팅</strong>
+        </a>
+        <a class="service-item" href="mailto:park3367@hanmail.net?subject=%5BAI%20%ED%99%9C%EC%9A%A9%20%EA%B0%95%EC%9D%98%5D%20%EB%AC%B8%EC%9D%98" aria-label="AI 활용 강의 문의 이메일 보내기">
+          <span class="material-symbols-outlined" aria-hidden="true">laptop_chromebook</span>
+          <strong>AI 강의</strong>
+        </a>
+      </div>
+
+      <div class="quick-contact" aria-label="빠른 연락">
+        <a class="contact-button contact-button-primary" href="tel:01046333367">
+          <span class="material-symbols-outlined" aria-hidden="true">call</span>
+          <span>전화 걸기</span>
+        </a>
+        <div class="contact-button-row">
+          <a class="contact-button contact-button-outline" href="mailto:park3367@hanmail.net?subject=%5B%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80%5D%20%EC%83%81%EB%8B%B4%20%EB%AC%B8%EC%9D%98" aria-label="park3367@hanmail.net으로 홈페이지 상담 이메일 보내기">
+            <span class="material-symbols-outlined" aria-hidden="true">mail</span>
+            <span>이메일</span>
+          </a>
+          <a class="contact-button contact-button-outline" href="./contact.vcf" download>
+            <span class="material-symbols-outlined" aria-hidden="true">contact_page</span>
+            <span>연락처 저장</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section brand-story" aria-labelledby="brand-story-title">
+      <div class="brand-story-mark">
+        <img src="./assets/tnb-symbol.png" alt="티앤비 협동조합 T&B 원형 심볼">
+      </div>
+      <div class="brand-story-copy">
+        <p class="section-label">Logo &amp; Meaning</p>
+        <h2 id="brand-story-title">Together &amp; Better</h2>
+        <p><span class="story-lead">현장의 경험과 AI를 연결해 사업이 실제로 움직이도록 돕습니다.</span>T&amp;B는 <strong>Together &amp; Better</strong>의 약자입니다. 원 안에 연결된 T와 B처럼 서로의 경험과 역량을 모아 함께 성장하고, 더 나은 비즈니스를 만들어갑니다.</p>
+      </div>
+    </section>
+
+    <section id="portfolio" class="section portfolio-section">
       <div class="section-heading">
-        <p class="section-label">Expertise</p>
-        <h2>경험을 실행 가능한 해법으로 연결합니다</h2>
-        <p>각 항목을 누르면 박미애님의 역량과 활동을 확인할 수 있습니다.</p>
+        <p class="section-label">Portfolio</p>
+        <h2>현장에서 쌓아온 사업 포트폴리오</h2>
+        <p>컨설팅부터 시스템에어컨 설치와 세척까지, 다양한 현장에서 축적한 수행 경험입니다.</p>
       </div>
-      <div class="accordion-list">
-        <details open>
-          <summary><span>핵심 역량</span><span class="summary-mark" aria-hidden="true"></span></summary>
-          <div class="accordion-content"><ul><li>AI를 활용한 마케팅 교육</li><li>20년 경력의 경영지도사</li><li>공유오피스 운영관리</li></ul></div>
-        </details>
-        <details>
-          <summary><span>현재 활동 분야</span><span class="summary-mark" aria-hidden="true"></span></summary>
-          <div class="accordion-content"><ul><li>공유오피스 운영</li><li>에어컨 설치 및 세척</li><li>경영컨설팅</li></ul></div>
-        </details>
-        <details>
-          <summary><span>제공 서비스</span><span class="summary-mark" aria-hidden="true"></span></summary>
-          <div class="accordion-content"><ul><li>공유오피스 운영 및 관리</li><li>에어컨 설치 및 세척</li><li>경영컨설팅과 사업계획서 자문</li><li>AI 활용 강의</li></ul></div>
-        </details>
-        <details>
-          <summary><span>대표 경력</span><span class="summary-mark" aria-hidden="true"></span></summary>
-          <div class="accordion-content"><p class="career">20년 경력 경영지도사</p></div>
-        </details>
-      </div>
-      <div class="keyword-row" aria-label="전문 분야 키워드">
-        <span>AI강의</span><span>비즈니스모델</span><span>사업계획서</span><span>에어컨설치</span><span>공유오피스</span>
-      </div>
-    </section>
+      <div class="portfolio-list">
+        <article class="portfolio-card portfolio-card-consulting">
+          <header class="portfolio-card-header">
+            <span class="material-symbols-outlined" aria-hidden="true">analytics</span>
+            <div>
+              <p>Business Consulting</p>
+              <h3>컨설팅사업 포트폴리오</h3>
+            </div>
+          </header>
+          <div class="portfolio-categories">
+            <section class="portfolio-category">
+              <h4>사회적경제</h4>
+              <p>코웍스 리턴프로그램 창업팀 멘토링, 여주사회적공동체지원센터 마을공동체 멘토링, 경기광역자활센터 신규사업모델 타당성 검토, 수원시지속가능도시재단 사업계획서 작성 멘토링, 사회연대은행 소셜벤처 심화멘토링, 성균관대학교 사회적경제아카데미 멘토링 등 다수</p>
+            </section>
+            <section class="portfolio-category">
+              <h4>중소기업</h4>
+              <p>하나파워온 중장년 창업프로그램 멘토링, ㈜디에스글로벌 투자유치 기업평가 및 IR 작성, ㈜바이오스트림 IR 작성, ㈜유레 IR 작성, ㈜디에프글로벌 면세점 입찰 사업계획서 작성, 경기여성능력개발센터 창업상담 및 멘토링, 기술보증기금 컨설팅 등 다수</p>
+            </section>
+            <section class="portfolio-category">
+              <h4>강의</h4>
+              <p>여주사회적공동체지원센터 마을공동체 창업교육, 대학생활협동조합연합회 재무관리 및 원가관리, 홍성여성새로일하기센터 사업자등록 및 세무교육, 경기광역자활센터 사업타당성분석, 제안서 작성방법, 한국관광공사 비즈니스모델 등 다수</p>
+            </section>
+            <section class="portfolio-category">
+              <h4>연구개발</h4>
+              <p>㈜위키박스 R&amp;D 기획, ㈜디엔피코퍼레이션 R&amp;D 컨설팅, ㈜구츠 R&amp;D 컨설팅, 서울산업진흥원 신기술보육센터 입주업체 R&amp;D 컨설팅 등 다수</p>
+            </section>
+          </div>
+        </article>
 
-    <section class="cta-section" aria-labelledby="cta-title">
-      <div class="cta-inner">
-        <p class="section-label">Let’s work together</p>
-        <h2 id="cta-title">좋은 아이디어를<br>실행으로 바꿔보세요.</h2>
-        <p>AI 강의, 경영컨설팅, 공간 운영과 에어컨 서비스가 필요하시면 편하게 연락 주세요.</p>
-        <div class="service-grid">
-          <a href="mailto:park3367@hanmail.net?subject=AI%20활용%20강의%20문의"><strong>AI 활용 강의</strong><span>교육·출강 문의</span></a>
-          <a href="mailto:park3367@hanmail.net?subject=경영컨설팅%20문의"><strong>경영컨설팅</strong><span>사업·전략 상담</span></a>
-          <a href="tel:01046333367"><strong>공간·설치 서비스</strong><span>공유오피스·에어컨 문의</span></a>
-        </div>
+        <article class="portfolio-card portfolio-card-aircon">
+          <header class="portfolio-card-header">
+            <span class="material-symbols-outlined" aria-hidden="true">ac_unit</span>
+            <div>
+              <p>Air Conditioning</p>
+              <h3>에어컨사업 포트폴리오</h3>
+            </div>
+          </header>
+          <div class="portfolio-categories portfolio-categories-compact">
+            <section class="portfolio-category">
+              <h4>(시스템)에어컨 설치</h4>
+              <p>중앙대병원, 박상욱치과, 김작가길숲독서논술, 강남구립논현노인종합복지관, 사랑의교회, 아리노마마디자인사무소, 영통아이파크캐슬, 논술학원, DMC 우방아파트 리모델링, 인천빌라 등 상가, 사무실, 아파트 리모델링, 빌라 등 다수</p>
+            </section>
+            <section class="portfolio-category">
+              <h4>에어컨 세척</h4>
+              <p>㈜프리미엄삼성공유오피스, 송파나루공유오피스, 산부인과, 영구스튜디오PT, 점핑다이어트, 아파트 투인원, 아파트 천정형, 벽걸이 다수</p>
+            </section>
+          </div>
+        </article>
       </div>
     </section>
 
     <section id="contact" class="section contact-section">
-      <div class="section-heading"><p class="section-label">Contact</p><h2>함께 이야기해요</h2></div>
-      <div class="contact-card">
-        <a href="tel:01046333367"><span>전화</span><strong>010-4633-3367</strong></a>
-        <a href="mailto:park3367@hanmail.net?subject=홈페이지%20문의" aria-label="park3367@hanmail.net으로 이메일 보내기"><span>이메일</span><strong>park3367@hanmail.net</strong></a>
-        <div><span>활동 지역</span><strong>서울·경기 / 광주광역시</strong></div>
-        <a href="https://blog.naver.com/tnbmc" target="_blank" rel="noopener noreferrer"><span>블로그</span><strong>네이버 블로그 보기</strong></a>
+      <div class="contact-layout">
+        <div class="section-heading">
+          <p class="section-label">Contact</p>
+          <h2>함께 이야기해요</h2>
+          <p>필요한 서비스와 사업 고민을 편하게 말씀해 주세요.</p>
+        </div>
+        <div class="contact-panel">
+          <div class="contact-card">
+            <a href="tel:01046333367">
+              <span class="material-symbols-outlined" aria-hidden="true">call</span>
+              <span><small>전화</small><strong>010-4633-3367</strong></span>
+            </a>
+            <a href="mailto:park3367@hanmail.net?subject=%5B%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80%5D%20%EC%83%81%EB%8B%B4%20%EB%AC%B8%EC%9D%98" aria-label="park3367@hanmail.net으로 홈페이지 상담 이메일 보내기">
+              <span class="material-symbols-outlined" aria-hidden="true">mail</span>
+              <span><small>이메일</small><strong>park3367@hanmail.net</strong></span>
+            </a>
+            <div>
+              <span class="material-symbols-outlined" aria-hidden="true">location_on</span>
+              <span><small>사무실</small><strong>서울시 강남구 테헤란로 625,<br>17층 RA1715호</strong></span>
+            </div>
+            <a href="https://blog.naver.com/tnbmc" target="_blank" rel="noopener noreferrer">
+              <span class="material-symbols-outlined" aria-hidden="true">article</span>
+              <span><small>블로그</small><strong>네이버 블로그 보기</strong></span>
+            </a>
+          </div>
+          <a class="final-cta" href="tel:01046333367">
+            <span class="material-symbols-outlined" aria-hidden="true">call</span>
+            <span>지금 상담하기</span>
+          </a>
+        </div>
       </div>
-      <a class="final-cta" href="tel:01046333367">지금 상담하기</a>
     </section>
   </main>
 
-  <footer><p>Digital Business Card · 박미애</p><a href="#hero">맨 위로</a></footer>
+  <footer>
+    <div class="footer-brand"><img src="./assets/tnb-symbol.png" alt=""><span>티앤비 협동조합 · Together &amp; Better</span></div>
+    <a href="#hero">맨 위로</a>
+  </footer>
 </body>
 </html>
