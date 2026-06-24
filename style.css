@@ -175,7 +175,7 @@ summary:focus-visible {
 
 .portrait-wrap {
   position: relative;
-  width: min(52vw, 190px);
+  width: min(48vw, 170px);
   aspect-ratio: 4 / 5;
   overflow: hidden;
   border-radius: 28px 28px 18px 18px;
@@ -205,14 +205,6 @@ summary:focus-visible {
 
 .hero-content {
   min-width: 0;
-}
-
-.hero-kicker {
-  margin: 10px 0 0;
-  color: var(--brand-teal);
-  font-size: 14px;
-  font-weight: 700;
-  letter-spacing: 0.03em;
 }
 
 h1 {
@@ -646,7 +638,7 @@ footer a {
   }
 
   .portrait-wrap {
-    width: 220px;
+    width: 200px;
   }
 
   .vision-inner {
@@ -735,7 +727,7 @@ footer a {
   }
 
   .portrait-wrap {
-    width: 270px;
+    width: 240px;
     justify-self: end;
   }
 
